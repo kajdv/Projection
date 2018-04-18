@@ -1,0 +1,14 @@
+#VeryUnlikely:before {
+  content: "didn't";
+  padding-right: 1em;
+}
+
+#VeryLikely:after {
+  content: "definitely did";
+  padding-left: 1em;
+}
+
+p {
+  max-width: 50em;
+  margin: auto;
+}
